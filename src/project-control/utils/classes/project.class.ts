@@ -1,5 +1,6 @@
 import { BaseProject, SaDepartment, Student } from '@lib';
-import { getAllMembers, getNamedValue, NamedRange, PCGS } from '@project-control';
+import { NamedRange, PCGS } from '@project-control/utils/constants';
+import { getAllMembers, getNamedValue } from '@project-control/utils/functions';
 
 export class Project extends BaseProject {
   /** Create project by reading data from the spreadsheet. */
